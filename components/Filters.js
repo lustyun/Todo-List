@@ -14,7 +14,7 @@ const Filters = () => {
 			<View style={styles.buttons}>
 				<Pressable
 					style={btnSelected == 1 ? styles.btnSelected : styles.notSelected}
-					key={`1`}
+					key={"1"}
 					onPress={() => {
 						setbtnSelected(1);
 						dispatch(setFilter("SHOW_ALL_TODOS"));
@@ -26,7 +26,7 @@ const Filters = () => {
 			<View style={styles.buttons}>
 				<Pressable
 					style={btnSelected == 2 ? styles.btnSelected : styles.notSelected}
-					key={`2`}
+					key={"2"}
 					onPress={() => {
 						setbtnSelected(2);
 						dispatch(setFilter("SHOW_COMPLETED_TODO"));
@@ -38,7 +38,7 @@ const Filters = () => {
 			<View style={styles.buttons}>
 				<Pressable
 					style={btnSelected == 3 ? styles.btnSelected : styles.notSelected}
-					key={`3`}
+					key={"3"}
 					onPress={() => {
 						setbtnSelected(3);
 						dispatch(setFilter("SHOW_INCOMPLETED_TODO"));

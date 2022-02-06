@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { View, Image, ScrollView, Text, StyleSheet } from "react-native";
+import { View, ScrollView, Text, StyleSheet } from "react-native";
 import AddTodo from "./AddTodo";
 import VisibileTodos from "./VisibileTodos";
 import Filters from "./Filters";

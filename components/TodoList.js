@@ -32,7 +32,6 @@ const TodoList = ({ toggleTodo, deleteTodo }) => {
 									fontSize: 15,
 									justifyContent: "flex-start",
 									textDecorationLine: todo.completed ? "line-through" : "none",
-									color: todo.completed ? "red" : "black",
 								}}
 							>
 								{todo.text}
